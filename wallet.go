@@ -185,7 +185,7 @@ func Transfer(gasPrice uint, gasLimit uint, senderWIF string, asset string, toAd
 	mutableTx := &types.MutableTransaction{
 		GasPrice: gasPriceUint64,
 		GasLimit: gasLimitUint64,
-		TxType:   types.Invoke,
+		TxType:   types.InvokeNeo,
 		Nonce:    uint32(time.Now().Unix()),
 		Payload:  invokePayload,
 		Sigs:     make([]types.Sig, 0, 0),
@@ -302,7 +302,7 @@ func WithdrawONG(gasPrice uint, gasLimit uint, endpoint string, wif string) (*Ra
 	mutableTx := &types.MutableTransaction{
 		GasPrice: gasPriceUint64,
 		GasLimit: gasLimitUint64,
-		TxType:   types.Invoke,
+		TxType:   types.InvokeNeo,
 		Nonce:    uint32(time.Now().Unix()),
 		Payload:  invokePayload,
 		Sigs:     make([]types.Sig, 0, 0),
