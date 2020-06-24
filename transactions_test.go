@@ -6,8 +6,8 @@ import (
 	"math"
 	"testing"
 
-	ont "github.com/o3labs/ont-mobile/ontmobile"
-	"github.com/o3labs/ont-mobile/ontmobile/ontrpc"
+	ont "github.com/tsfdsong/ont-mobile"
+	"github.com/tsfdsong/ont-mobile/ontrpc"
 )
 
 func TestTransferOEP4(t *testing.T) {

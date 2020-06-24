@@ -5,7 +5,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/o3labs/ont-mobile/ontmobile"
+	"github.com/tsfdsong/ont-mobile"
 	"github.com/ontio/ontology-crypto/keypair"
 	"github.com/tsfdsong/ontology/common"
 	"github.com/tsfdsong/ontology/core/program"

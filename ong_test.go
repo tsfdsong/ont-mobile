@@ -3,7 +3,7 @@ package ontmobile_test
 import (
 	"testing"
 
-	"github.com/o3labs/ont-mobile/ontmobile"
+	ontmobile "github.com/tsfdsong/ont-mobile"
 )
 
 func TestGetONG(t *testing.T) {
